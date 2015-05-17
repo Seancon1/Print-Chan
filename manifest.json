@@ -1,0 +1,13 @@
+{
+	// Required
+	"manifest_version": 2, // manifest version (can't use 1 anymore)
+	"name": "Print-Chan", // extention name
+	"description": "A web extension that allows users to print 4chan threads directly and store them locally on their machine.", // breif description of the extention
+	"version": "1", // version number
+
+	"browser_action": {
+    "default_icon": "src/html/images/icon.png", // the image that will appear in the top right (19px X 19px)
+    "default_popup": "src/html/popup.html", // the content that will appear when a user clicks the top right icon
+    "default_title": "Print-Chan" // the text that appears when mouse hover over top right icon
+  }
+}
