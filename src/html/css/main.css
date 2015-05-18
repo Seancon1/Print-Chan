@@ -7,7 +7,7 @@
 	margin: 0px;
 }
 
-#main_container {
+.main_container {
 margin: 0 auto;
 max-width: 800px;
 min-width: 800px;
